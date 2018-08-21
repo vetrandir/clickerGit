@@ -112,5 +112,9 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+    public void OnClickToInventory(View view) {
+        Intent intent = new Intent(MainActivity.this, Inventory.class);
+        startActivity(intent);
+    }
 
 }

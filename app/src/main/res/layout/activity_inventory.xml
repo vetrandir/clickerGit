@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sklad720"
+    tools:context=".Inventory">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imageButton20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="OnClickSteklo"
+                app:srcCompat="@drawable/glass"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="OnClickMedProvoda"
+                app:srcCompat="@drawable/tablemedprov"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="OnClickZhelezPlast"
+                app:srcCompat="@drawable/iron_plate"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="OnClickLopast"
+                app:srcCompat="@drawable/tablelopast"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="OnClickTruba"
+                app:srcCompat="@drawable/pipe"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="OnClickBaki"
+                app:srcCompat="@drawable/table_bak"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="OnClickEkran"
+                app:srcCompat="@drawable/screen"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="OnClickChip"
+                app:srcCompat="@drawable/chip"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="OnClickVtoipovayaPlast"
+                app:srcCompat="@drawable/table_vtplast"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="OnClickProvodka"
+                app:srcCompat="@drawable/wiring"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="OnClickVint"
+                app:srcCompat="@drawable/table_vint"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="OnClickSoplo"
+                app:srcCompat="@drawable/tozzle"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="OnClickProcessor"
+                app:srcCompat="@drawable/cpu"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="OnClickAccumulator"
+                app:srcCompat="@drawable/tableakk"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="OnClickTurbina"
+                app:srcCompat="@drawable/turbine"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="OnClickNasos"
+                app:srcCompat="@drawable/pump"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="OnClickSolnechnayaPanel"
+                app:srcCompat="@drawable/solar_panel"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="OnClickSputnikovayaTarelka"
+                app:srcCompat="@drawable/satellite_dish"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="OnClickTransponder"
+                app:srcCompat="@drawable/transponder"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="OnClickObtekatel"
+                app:srcCompat="@drawable/tableoptek"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="OnClickObshivka"
+                app:srcCompat="@drawable/sheathing"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="OnClickComputer"
+                app:srcCompat="@drawable/tablekomp"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="OnClickTelephon"
+                app:srcCompat="@drawable/table_telefon"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="OnClickSputnik"
+                app:srcCompat="@drawable/satellite"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="OnClickRaketniyUskoritel"
+                app:srcCompat="@drawable/rocket_accelerator"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="OnClickBortovoyComputer"
+                app:srcCompat="@drawable/comp"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="OnClickElektrodvigatel"
+                app:srcCompat="@drawable/electric_motor"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="OnClickMarsochod"
+                app:srcCompat="@drawable/tablemarsohod"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="OnClickServer"
+                app:srcCompat="@drawable/server"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="OnClickServer"
+                app:srcCompat="@drawable/server"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="OnClickPervayaStupen"
+                app:srcCompat="@drawable/table_1stup"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="OnClickVtorayaStupen"
+                app:srcCompat="@drawable/table_2stup"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="OnClickServer"
+                app:srcCompat="@drawable/server"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="OnClickServer"
+                app:srcCompat="@drawable/server"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="OnClickServer"
+                app:srcCompat="@drawable/server"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="OnClickServer"
+                app:srcCompat="@drawable/server"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
