@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/sklad720center"
-    tools:context=".IMedProvoda">
+    tools:context=".ICorpus">
 
     <ImageView
         android:id="@+id/imageView6"
@@ -19,7 +19,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/med_provoda256" />
+        app:srcCompat="@drawable/akkumulator256" />
 
     <TextView
         android:id="@+id/textView3"
@@ -65,7 +65,7 @@
         android:layout_marginTop="164dp"
         android:background="@android:color/transparent"
         android:gravity="center"
-        android:text="Несмотря на повсеместное внедрение беспроводных технологий, провода всё ещё в моде и вроде как нужны. Поэтому вот тебе провода."
+        android:text="Корпус есть почти у всего, да ещё и везде разный. Машина, турбина, даже авторучка - всё имеет корпус. Так что тебе он понадобится, как ничто другое."
         android:textColor="@android:color/black"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/textView3"

@@ -42,33 +42,32 @@ public class Inventory extends AppCompatActivity {
             Intent intent = new Intent(Inventory.this, ISteklo.class);
             startActivity(intent);
         }
-    /*public void OnClickVtoip(View view) {
+        public void OnClickVtoip(View view) {
         Intent intent = new Intent(Inventory.this, IVtoip.class);
         startActivity(intent);
-    }*/
-
+        }
         public void OnClickMedProvoda(View view) {
             Intent intent = new Intent(Inventory.this, IMedProvoda.class);
             startActivity(intent);
         }
-        /*public void OnClickZhelezPlast(View view) {
-            Intent intent = new Intent(Inventory.this, IZhelezPlast.class);
+        public void OnClickZhelezPlast(View view) {
+            Intent intent = new Intent(Inventory.this, ZhelezPlast.class);
             startActivity(intent);
-        }*/
-        /*public void OnClickResina(View view) {
+        }
+        public void OnClickResina(View view) {
             Intent intent = new Intent(Inventory.this, IResina.class);
             startActivity(intent);
-        }*/
-        /*public void OnClickLopast(View view) {
+        }
+        public void OnClickLopast(View view) {
             Intent intent = new Intent(Inventory.this, ILopast.class);
             startActivity(intent);
-        }*/
-        /*public void OnClickAntenna(View view) {
+        }
+        public void OnClickAntenna(View view) {
             Intent intent = new Intent(Inventory.this, IAntenna.class);
             startActivity(intent);
-        }*/
-        /*public void OnClickTruba(View view) {
-            Intent intent = new Intent(Inventory.this, ITruba.class);I
+        }
+        public void OnClickTruba(View view) {
+            Intent intent = new Intent(Inventory.this, ITruba.class);
             startActivity(intent);
         }
         public void OnClickCorpus(View view) {
@@ -78,7 +77,7 @@ public class Inventory extends AppCompatActivity {
         public void OnClickBaki(View view) {
             Intent intent = new Intent(Inventory.this, IBaki.class);
             startActivity(intent);
-        }Inventory
+        }
         public void OnClickEkran(View view) {
             Intent intent = new Intent(Inventory.this, IEkran.class);
             startActivity(intent);
@@ -107,7 +106,7 @@ public class Inventory extends AppCompatActivity {
             Intent intent = new Intent(Inventory.this, IProcessor.class);
             startActivity(intent);
         }
-        public void OnClickAccumulator(View view) {I
+        public void OnClickAccumulator(View view) {
             Intent intent = new Intent(Inventory.this, IAccumulator.class);
             startActivity(intent);
         }
@@ -156,7 +155,7 @@ public class Inventory extends AppCompatActivity {
             startActivity(intent);
         }
         public void OnClickShiloyModul(View view) {
-            Intent intent = new Intent(Inventory.this, IShiloyModul.class);I
+            Intent intent = new Intent(Inventory.this, IShiloyModul.class);
             startActivity(intent);
         }
         public void OnClickRaketniyUskoritel(View view) {
@@ -185,7 +184,7 @@ public class Inventory extends AppCompatActivity {
         }
         public void OnClickTretyaStupen(View view) {
             Intent intent = new Intent(Inventory.this, ITretyaStupen.class);
-            startActivity(intent);I
+            startActivity(intent);
         }
         public void OnClickVtorayaStupen(View view) {
             Intent intent = new Intent(Inventory.this, IVtorayaStupen.class);
@@ -206,6 +205,6 @@ public class Inventory extends AppCompatActivity {
         public void OnClickMeshplanetnayaStanciya(View view) {
             Intent intent = new Intent(Inventory.this, IMeshplanetnayaStanciya.class);
             startActivity(intent);
-        }*/
+        }
     }
 

@@ -21,7 +21,46 @@
         <activity android:name=".IMedProvoda" />
         <activity android:name=".ISteklo" />
         <activity android:name=".IVtoip" />
-        <activity android:name=".IServer"></activity>
+        <activity android:name=".IServer" />
+        <activity android:name=".ZhelezPlast" />
+        <activity android:name=".IGrafen" />
+        <activity android:name=".IResina" />
+        <activity android:name=".ILopast" />
+        <activity android:name=".IAntenna" />
+        <activity android:name=".ITruba" />
+        <activity android:name=".ICorpus" />
+        <activity android:name=".IBaki" />
+        <activity android:name=".IEkran" />
+        <activity android:name=".IChip" />
+        <activity android:name=".IVtoipovayaPlast" />
+        <activity android:name=".IProvodka" />
+        <activity android:name=".ISoplo" />
+        <activity android:name=".IVint" />
+        <activity android:name=".IProcessor" />
+        <activity android:name=".IAccumulator" />
+        <activity android:name=".ITurbina" />
+        <activity android:name=".INasos" />
+        <activity android:name=".ISolnechnayaPanel" />
+        <activity android:name=".ISputnikovayaTarelka" />
+        <activity android:name=".ITransponder" />
+        <activity android:name=".IObtekatel" />
+        <activity android:name=".IObshivka" />
+        <activity android:name=".IComputer" />
+        <activity android:name=".ITelephon" />
+        <activity android:name=".ISputnik" />
+        <activity android:name=".ISistemaShisneobespecheniya" />
+        <activity android:name=".IShiloyModul" />
+        <activity android:name=".IRaketniyUskoritel" />
+        <activity android:name=".IBortovoyComputer" />
+        <activity android:name=".IElektrodvigatel" />
+        <activity android:name=".IMarsochod" />
+        <activity android:name=".ILetaushayaMashina" />
+        <activity android:name=".IPervayaStupen" />
+        <activity android:name=".IVtorayaStupen" />
+        <activity android:name=".ITretyaStupen" />
+        <activity android:name=".IModulStancii" />
+        <activity android:name=".IRaketa" />
+        <activity android:name=".IMeshplanetnayaStanciya"></activity>
     </application>
 
 </manifest>

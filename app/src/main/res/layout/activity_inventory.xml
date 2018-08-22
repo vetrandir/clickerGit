@@ -315,8 +315,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
-                android:onClick="OnClickServer"
-                app:srcCompat="@drawable/server"
+                android:onClick="OnClickLetaushayaMashina"
+                app:srcCompat="@drawable/fly_car"
                 tools:layout_editor_absoluteX="40dp"
                 tools:layout_editor_absoluteY="0dp" />
 
