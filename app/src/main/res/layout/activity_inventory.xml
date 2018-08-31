@@ -21,362 +21,402 @@
             android:orientation="vertical">
 
             <ImageButton
-                android:id="@+id/imageButton20"
+                android:id="@+id/imageButtonSteklo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
                 android:onClick="OnClickSteklo"
-                app:srcCompat="@drawable/glass"
+                app:srcCompat="@android:color/white"
                 tools:layout_editor_absoluteX="40dp"
                 tools:layout_editor_absoluteY="0dp" />
 
             <ImageButton
-                android:id="@+id/imageButton22"
+                android:id="@+id/imageButtonMedProvoda"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
                 android:onClick="OnClickMedProvoda"
-                app:srcCompat="@drawable/tablemedprov"
+                app:srcCompat="@android:color/white"
                 tools:layout_editor_absoluteX="40dp"
                 tools:layout_editor_absoluteY="0dp" />
 
             <ImageButton
-                android:id="@+id/imageButton21"
+                android:id="@+id/imageButtonZhelezPlast"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
                 android:onClick="OnClickZhelezPlast"
-                app:srcCompat="@drawable/iron_plate"
+                app:srcCompat="@android:color/white"
                 tools:layout_editor_absoluteX="40dp"
                 tools:layout_editor_absoluteY="0dp" />
 
             <ImageButton
-                android:id="@+id/imageButton19"
+                android:id="@+id/imageButtonLopast"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
                 android:onClick="OnClickLopast"
-                app:srcCompat="@drawable/tablelopast"
+                app:srcCompat="@android:color/white"
                 tools:layout_editor_absoluteX="40dp"
                 tools:layout_editor_absoluteY="0dp" />
 
             <ImageButton
-                android:id="@+id/imageButton18"
+                android:id="@+id/imageButtonAntenna"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="OnClickAntenna"
+                app:srcCompat="@android:color/white"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <ImageButton
+                android:id="@+id/imageButtonTruba"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
                 android:onClick="OnClickTruba"
-                app:srcCompat="@drawable/pipe"
+                app:srcCompat="@android:color/white"
                 tools:layout_editor_absoluteX="40dp"
                 tools:layout_editor_absoluteY="0dp" />
 
             <ImageButton
-                android:id="@+id/imageButton3"
+                android:id="@+id/imageButtonCorpus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="OnClickCorpus"
+                app:srcCompat="@android:color/white"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <ImageButton
+                android:id="@+id/imageButtonBaki"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
                 android:onClick="OnClickBaki"
-                app:srcCompat="@drawable/table_bak"
+                app:srcCompat="@android:color/white"
                 tools:layout_editor_absoluteX="40dp"
                 tools:layout_editor_absoluteY="0dp" />
 
             <ImageButton
-                android:id="@+id/imageButton17"
+                android:id="@+id/imageButtonEkran"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
                 android:onClick="OnClickEkran"
-                app:srcCompat="@drawable/screen"
+                app:srcCompat="@android:color/white"
                 tools:layout_editor_absoluteX="40dp"
                 tools:layout_editor_absoluteY="0dp" />
 
             <ImageButton
-                android:id="@+id/imageButton4"
+                android:id="@+id/imageButtonChip"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
                 android:onClick="OnClickChip"
-                app:srcCompat="@drawable/chip"
+                app:srcCompat="@android:color/white"
                 tools:layout_editor_absoluteX="40dp"
                 tools:layout_editor_absoluteY="0dp" />
 
             <ImageButton
-                android:id="@+id/imageButton16"
+                android:id="@+id/imageButtonVtoipovayaPlast"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
                 android:onClick="OnClickVtoipovayaPlast"
-                app:srcCompat="@drawable/table_vtplast"
+                app:srcCompat="@android:color/white"
                 tools:layout_editor_absoluteX="40dp"
                 tools:layout_editor_absoluteY="0dp" />
 
             <ImageButton
-                android:id="@+id/imageButton15"
+                android:id="@+id/imageButtonProvodka"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
                 android:onClick="OnClickProvodka"
-                app:srcCompat="@drawable/wiring"
+                app:srcCompat="@android:color/white"
                 tools:layout_editor_absoluteX="40dp"
                 tools:layout_editor_absoluteY="0dp" />
 
             <ImageButton
-                android:id="@+id/imageButton14"
+                android:id="@+id/imageButtonVint"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
                 android:onClick="OnClickVint"
-                app:srcCompat="@drawable/table_vint"
+                app:srcCompat="@android:color/white"
                 tools:layout_editor_absoluteX="40dp"
                 tools:layout_editor_absoluteY="0dp" />
 
             <ImageButton
-                android:id="@+id/imageButton5"
+                android:id="@+id/imageButtonSoplo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
                 android:onClick="OnClickSoplo"
-                app:srcCompat="@drawable/tozzle"
+                app:srcCompat="@android:color/white"
                 tools:layout_editor_absoluteX="40dp"
                 tools:layout_editor_absoluteY="0dp" />
 
             <ImageButton
-                android:id="@+id/imageButton13"
+                android:id="@+id/imageButtonProcessor"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
                 android:onClick="OnClickProcessor"
-                app:srcCompat="@drawable/cpu"
+                app:srcCompat="@android:color/white"
                 tools:layout_editor_absoluteX="40dp"
                 tools:layout_editor_absoluteY="0dp" />
 
             <ImageButton
-                android:id="@+id/imageButton2"
+                android:id="@+id/imageButtonAccumulator"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
                 android:onClick="OnClickAccumulator"
-                app:srcCompat="@drawable/tableakk"
+                app:srcCompat="@android:color/white"
                 tools:layout_editor_absoluteX="40dp"
                 tools:layout_editor_absoluteY="0dp" />
 
             <ImageButton
-                android:id="@+id/imageButton11"
+                android:id="@+id/imageButtonTurbina"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
                 android:onClick="OnClickTurbina"
-                app:srcCompat="@drawable/turbine"
+                app:srcCompat="@android:color/white"
                 tools:layout_editor_absoluteX="40dp"
                 tools:layout_editor_absoluteY="0dp" />
 
             <ImageButton
-                android:id="@+id/imageButton10"
+                android:id="@+id/imageButtonNasos"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
                 android:onClick="OnClickNasos"
-                app:srcCompat="@drawable/pump"
+                app:srcCompat="@android:color/white"
                 tools:layout_editor_absoluteX="40dp"
                 tools:layout_editor_absoluteY="0dp" />
 
             <ImageButton
-                android:id="@+id/imageButton9"
+                android:id="@+id/imageButtonSolnechnayaPanel"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
                 android:onClick="OnClickSolnechnayaPanel"
-                app:srcCompat="@drawable/solar_panel"
+                app:srcCompat="@android:color/white"
                 tools:layout_editor_absoluteX="40dp"
                 tools:layout_editor_absoluteY="0dp" />
 
             <ImageButton
-                android:id="@+id/imageButton8"
+                android:id="@+id/imageButtonSputnikovayaTarelka"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
                 android:onClick="OnClickSputnikovayaTarelka"
-                app:srcCompat="@drawable/satellite_dish"
+                app:srcCompat="@android:color/white"
                 tools:layout_editor_absoluteX="40dp"
                 tools:layout_editor_absoluteY="0dp" />
 
             <ImageButton
-                android:id="@+id/imageButton38"
+                android:id="@+id/imageButtonTransponder"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
                 android:onClick="OnClickTransponder"
-                app:srcCompat="@drawable/transponder"
+                app:srcCompat="@android:color/white"
                 tools:layout_editor_absoluteX="40dp"
                 tools:layout_editor_absoluteY="0dp" />
 
             <ImageButton
-                android:id="@+id/imageButton6"
+                android:id="@+id/imageButtonObtekatel"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
                 android:onClick="OnClickObtekatel"
-                app:srcCompat="@drawable/tableoptek"
+                app:srcCompat="@android:color/white"
                 tools:layout_editor_absoluteX="40dp"
                 tools:layout_editor_absoluteY="0dp" />
 
             <ImageButton
-                android:id="@+id/imageButton37"
+                android:id="@+id/imageButtonObshivka"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
                 android:onClick="OnClickObshivka"
-                app:srcCompat="@drawable/sheathing"
+                app:srcCompat="@android:color/white"
                 tools:layout_editor_absoluteX="40dp"
                 tools:layout_editor_absoluteY="0dp" />
 
             <ImageButton
-                android:id="@+id/imageButton36"
+                android:id="@+id/imageButtonComputer"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
                 android:onClick="OnClickComputer"
-                app:srcCompat="@drawable/tablekomp"
+                app:srcCompat="@android:color/white"
                 tools:layout_editor_absoluteX="40dp"
                 tools:layout_editor_absoluteY="0dp" />
 
             <ImageButton
-                android:id="@+id/imageButton35"
+                android:id="@+id/imageButtonTelephon"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
                 android:onClick="OnClickTelephon"
-                app:srcCompat="@drawable/table_telefon"
+                app:srcCompat="@android:color/white"
                 tools:layout_editor_absoluteX="40dp"
                 tools:layout_editor_absoluteY="0dp" />
 
             <ImageButton
-                android:id="@+id/imageButton7"
+                android:id="@+id/imageButtonSputnik"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
                 android:onClick="OnClickSputnik"
-                app:srcCompat="@drawable/satellite"
+                app:srcCompat="@android:color/white"
                 tools:layout_editor_absoluteX="40dp"
                 tools:layout_editor_absoluteY="0dp" />
 
             <ImageButton
-                android:id="@+id/imageButton12"
+                android:id="@+id/imageButtonSistemaShizneobespecheniya"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="OnClickSistemaShizneobespecheniya"
+                app:srcCompat="@android:color/white"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <ImageButton
+                android:id="@+id/imageButtonShiloyModul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="OnClickShiloyModul"
+                app:srcCompat="@android:color/white"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <ImageButton
+                android:id="@+id/imageButtonRaketniyUskoritel"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
                 android:onClick="OnClickRaketniyUskoritel"
-                app:srcCompat="@drawable/rocket_accelerator"
+                app:srcCompat="@android:color/white"
                 tools:layout_editor_absoluteX="40dp"
                 tools:layout_editor_absoluteY="0dp" />
 
             <ImageButton
-                android:id="@+id/imageButton33"
+                android:id="@+id/imageButtonBortovoyComputer"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
                 android:onClick="OnClickBortovoyComputer"
-                app:srcCompat="@drawable/comp"
+                app:srcCompat="@android:color/white"
                 tools:layout_editor_absoluteX="40dp"
                 tools:layout_editor_absoluteY="0dp" />
 
             <ImageButton
-                android:id="@+id/imageButton32"
+                android:id="@+id/imageButtonElektrodvigatel"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
                 android:onClick="OnClickElektrodvigatel"
-                app:srcCompat="@drawable/electric_motor"
+                app:srcCompat="@android:color/white"
                 tools:layout_editor_absoluteX="40dp"
                 tools:layout_editor_absoluteY="0dp" />
 
             <ImageButton
-                android:id="@+id/imageButton31"
+                android:id="@+id/imageButtonMarsochod"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
                 android:onClick="OnClickMarsochod"
-                app:srcCompat="@drawable/tablemarsohod"
+                app:srcCompat="@android:color/white"
                 tools:layout_editor_absoluteX="40dp"
                 tools:layout_editor_absoluteY="0dp" />
 
             <ImageButton
-                android:id="@+id/imageButton30"
+                android:id="@+id/imageButtonServer"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
                 android:onClick="OnClickServer"
-                app:srcCompat="@drawable/server"
+                app:srcCompat="@android:color/white"
                 tools:layout_editor_absoluteX="40dp"
                 tools:layout_editor_absoluteY="0dp" />
 
             <ImageButton
-                android:id="@+id/imageButton34"
+                android:id="@+id/imageButtonLetaushayaMashina"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
                 android:onClick="OnClickLetaushayaMashina"
-                app:srcCompat="@drawable/fly_car"
+                app:srcCompat="@android:color/white"
                 tools:layout_editor_absoluteX="40dp"
                 tools:layout_editor_absoluteY="0dp" />
 
             <ImageButton
-                android:id="@+id/imageButton29"
+                android:id="@+id/imageButtonTretyaStupen"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
-                android:onClick="OnClickPervayaStupen"
-                app:srcCompat="@drawable/table_1stup"
+                android:onClick="OnClickTretyaStupen"
+                app:srcCompat="@android:color/white"
                 tools:layout_editor_absoluteX="40dp"
                 tools:layout_editor_absoluteY="0dp" />
 
             <ImageButton
-                android:id="@+id/imageButton28"
+                android:id="@+id/imageButtonVtorayaStupen"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
                 android:onClick="OnClickVtorayaStupen"
-                app:srcCompat="@drawable/table_2stup"
+                app:srcCompat="@android:color/white"
                 tools:layout_editor_absoluteX="40dp"
                 tools:layout_editor_absoluteY="0dp" />
 
             <ImageButton
-                android:id="@+id/imageButton27"
+                android:id="@+id/imageButtonPervayaStupen"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
-                android:onClick="OnClickServer"
-                app:srcCompat="@drawable/server"
+                android:onClick="OnClickPervayaStupen"
+                app:srcCompat="@android:color/white"
                 tools:layout_editor_absoluteX="40dp"
                 tools:layout_editor_absoluteY="0dp" />
 
             <ImageButton
-                android:id="@+id/imageButton26"
+                android:id="@+id/imageButtonModulStancii"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
-                android:onClick="OnClickServer"
-                app:srcCompat="@drawable/server"
+                android:onClick="OnClickModulStancii"
+                app:srcCompat="@android:color/white"
                 tools:layout_editor_absoluteX="40dp"
                 tools:layout_editor_absoluteY="0dp" />
 
             <ImageButton
-                android:id="@+id/imageButton25"
+                android:id="@+id/imageButtonRaketa"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
-                android:onClick="OnClickServer"
-                app:srcCompat="@drawable/server"
+                android:onClick="OnClickRaketa"
+                app:srcCompat="@android:color/white"
                 tools:layout_editor_absoluteX="40dp"
                 tools:layout_editor_absoluteY="0dp" />
 
             <ImageButton
-                android:id="@+id/imageButton24"
+                android:id="@+id/imageButtonMeshplanetnayaStanciya"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
-                android:onClick="OnClickServer"
-                app:srcCompat="@drawable/server"
+                android:onClick="OnClickMeshplanetnayaStanciya"
+                app:srcCompat="@android:color/white"
                 tools:layout_editor_absoluteX="40dp"
                 tools:layout_editor_absoluteY="0dp" />
 

@@ -19,7 +19,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/zhiloy_mod256" />
+        app:srcCompat="@drawable/stanciya" />
 
     <TextView
         android:id="@+id/textView3"
@@ -66,7 +66,7 @@
         android:layout_marginTop="164dp"
         android:background="@android:color/transparent"
         android:gravity="center"
-        android:text="Та часть ракеты, которая специально предназначена для твоего в ней нахождения. А так же твой будущий дом."
+        android:text="Огромная конструкция из десятков модулей, способная перенести тебя в более конкретное место, нежели чем просто космос: на другую планету! Марс тебя ждёт и его терпение не безгранично, вперёд!"
         android:textColor="@android:color/black"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/textView3"
