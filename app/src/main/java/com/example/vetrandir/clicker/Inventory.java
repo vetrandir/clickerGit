@@ -275,10 +275,10 @@ public class Inventory extends AppCompatActivity {
                 imageView31.setImageResource(R.drawable.table_3stup);
                 imageView32.setImageResource(R.drawable.table_2stup);
                 imageView33.setImageResource(R.drawable.table_1stup);
-                imageView34.setImageResource(R.drawable.table_zamok);
+                imageView34.setImageResource(R.drawable.table_stanciya);
                 imageView35.setImageResource(R.drawable.table_rocket);
                 imageView36.setImageResource(R.drawable.table_zamok);
-                imageView37.setImageResource(R.drawable.table_zamok);
+                imageView37.setImageResource(R.drawable.table_stanciya);
                 break;
         }
         /*switch(stage){
