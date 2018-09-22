@@ -60,7 +60,11 @@
         <activity android:name=".ITretyaStupen" />
         <activity android:name=".IModulStancii" />
         <activity android:name=".IRaketa" />
-        <activity android:name=".IMeshplanetnayaStanciya"></activity>
+        <activity android:name=".IMeshplanetnayaStanciya" />
+        <activity android:name=".IShelezo" />
+        <activity android:name=".IMed" />
+        <activity android:name=".IKwarz" />
+        <activity android:name=".IGraok"></activity>
     </application>
 
 </manifest>

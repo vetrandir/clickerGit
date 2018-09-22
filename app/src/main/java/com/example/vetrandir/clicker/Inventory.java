@@ -19,10 +19,10 @@ public class Inventory extends AppCompatActivity {
         setContentView(R.layout.activity_inventory);
         getSupportActionBar().hide();
 
-        /*ImageView imageViewShelezo = (ImageView) findViewById(R.id.imageButtonShelezo);
-        ImageView imageViewMed = (ImageView) findViewById(R.id.imageButtonMed);
-        ImageView imageViewKwarz = (ImageView) findViewById(R.id.imageButtonKwarz);
-        ImageView imageViewGraok = (ImageView) findViewById(R.id.imageButtonGraok);*/
+        ImageView imageView0_1 = (ImageView) findViewById(R.id.imageButtonShelezo);
+        ImageView imageView0_2 = (ImageView) findViewById(R.id.imageButtonMed);
+        ImageView imageView0_3 = (ImageView) findViewById(R.id.imageButtonKwarz);
+        ImageView imageView0_4 = (ImageView) findViewById(R.id.imageButtonGraok);
         ImageView imageView1 = (ImageView) findViewById(R.id.imageButtonSteklo);
         ImageView imageView2 = (ImageView) findViewById(R.id.imageButtonMedProvoda);
         ImageView imageView3 = (ImageView) findViewById(R.id.imageButtonZhelezPlast);
@@ -66,6 +66,10 @@ public class Inventory extends AppCompatActivity {
         ImageView imageView37 = (ImageView) findViewById(R.id.imageButtonMeshplanetnayaStanciya);
         switch (stage){
             case 1:
+                imageView0_1.setImageResource(R.drawable.table_zhelezo);
+                imageView0_2.setImageResource(R.drawable.table_medy);
+                imageView0_3.setImageResource(R.drawable.table_quarz);
+                imageView0_4.setImageResource(R.drawable.table_grafit);
                 imageView1.setImageResource(R.drawable.table_glassnew);
                 imageView2.setImageResource(R.drawable.tablemedprov);
                 imageView3.setImageResource(R.drawable.iron_platenew);
@@ -109,6 +113,10 @@ public class Inventory extends AppCompatActivity {
                 imageView37.setImageResource(R.drawable.table_zamok);
                 break;
             case 2:
+                imageView0_1.setImageResource(R.drawable.table_zhelezo);
+                imageView0_2.setImageResource(R.drawable.table_medy);
+                imageView0_3.setImageResource(R.drawable.table_quarz);
+                imageView0_4.setImageResource(R.drawable.table_grafit);
                 imageView1.setImageResource(R.drawable.table_glassnew);
                 imageView2.setImageResource(R.drawable.tablemedprov);
                 imageView3.setImageResource(R.drawable.iron_platenew);
@@ -152,6 +160,10 @@ public class Inventory extends AppCompatActivity {
                 imageView37.setImageResource(R.drawable.table_zamok);
                 break;
             case 3:
+                imageView0_1.setImageResource(R.drawable.table_zhelezo);
+                imageView0_2.setImageResource(R.drawable.table_medy);
+                imageView0_3.setImageResource(R.drawable.table_quarz);
+                imageView0_4.setImageResource(R.drawable.table_grafit);
                 imageView1.setImageResource(R.drawable.table_glassnew);
                 imageView2.setImageResource(R.drawable.tablemedprov);
                 imageView3.setImageResource(R.drawable.iron_platenew);
@@ -195,6 +207,10 @@ public class Inventory extends AppCompatActivity {
                 imageView37.setImageResource(R.drawable.table_zamok);
                 break;
             case 4:
+                imageView0_1.setImageResource(R.drawable.table_zhelezo);
+                imageView0_2.setImageResource(R.drawable.table_medy);
+                imageView0_3.setImageResource(R.drawable.table_quarz);
+                imageView0_4.setImageResource(R.drawable.table_grafit);
                 imageView1.setImageResource(R.drawable.table_glassnew);
                 imageView2.setImageResource(R.drawable.tablemedprov);
                 imageView3.setImageResource(R.drawable.iron_platenew);
@@ -238,6 +254,10 @@ public class Inventory extends AppCompatActivity {
                 imageView37.setImageResource(R.drawable.table_zamok);
                 break;
             case 5:
+                imageView0_1.setImageResource(R.drawable.table_zhelezo);
+                imageView0_2.setImageResource(R.drawable.table_medy);
+                imageView0_3.setImageResource(R.drawable.table_quarz);
+                imageView0_4.setImageResource(R.drawable.table_grafit);
                 imageView1.setImageResource(R.drawable.table_glassnew);
                 imageView2.setImageResource(R.drawable.tablemedprov);
                 imageView3.setImageResource(R.drawable.iron_platenew);
@@ -299,7 +319,7 @@ public class Inventory extends AppCompatActivity {
         super.onResume();
         overridePendingTransition(0, 0);
     }
-        /*public void OnClickShelezo(View view) {
+        public void OnClickShelezo(View view) {
             Intent intent = new Intent(Inventory.this, IShelezo.class);
             startActivity(intent);
         }
@@ -314,7 +334,7 @@ public class Inventory extends AppCompatActivity {
         public void OnClickGraok(View view) {
             Intent intent = new Intent(Inventory.this, IGraok.class);
             startActivity(intent);
-        }
+        }/*
         public void OnClickGrafen(View view) {
             Intent intent = new Intent(Inventory.this, IGrafen.class);
             startActivity(intent);

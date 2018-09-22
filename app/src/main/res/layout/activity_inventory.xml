@@ -19,6 +19,42 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/imageButtonShelezo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="OnClickShelezo"
+                app:srcCompat="@android:color/white"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="0dp" />
+            <ImageButton
+                android:id="@+id/imageButtonMed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="OnClickMed"
+                app:srcCompat="@android:color/white"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="0dp" />
+            <ImageButton
+                android:id="@+id/imageButtonKwarz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="OnClickKwarz"
+                app:srcCompat="@android:color/white"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="0dp" />
+            <ImageButton
+                android:id="@+id/imageButtonGraok"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="OnClickGraok"
+                app:srcCompat="@android:color/white"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="0dp" />
 
             <ImageButton
                 android:id="@+id/imageButtonSteklo"
